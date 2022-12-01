@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="TANK"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/af6618/C_TANK"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j40 -f &quot;/home/af6618/C_TANK/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j40 -f &quot;/home/af6618/C_TANK/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j40 -f &quot;/home/af6618/C_TANK/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j40 -f &quot;/home/af6618/C_TANK/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TANK">
+				<Option output="/home/af6618/C_TANK/TANK" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/af6618/C_TANK"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/af6618/C_TANK/buffers"/>
+					<Add directory="/home/af6618/C_TANK/client"/>
+					<Add directory="/home/af6618/C_TANK/connections"/>
+					<Add directory="/home/af6618/C_TANK/rdma"/>
+					<Add directory="/home/af6618/C_TANK/server"/>
+					<Add directory="/home/af6618/C_TANK/test"/>
+					<Add directory="/home/af6618/C_TANK/utils"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j40 -f &quot;/home/af6618/C_TANK/Makefile&quot;  VERBOSE=1 TANK"/>
+					<CompileFile command="/usr/bin/make -j40 -f &quot;/home/af6618/C_TANK/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j40 -f &quot;/home/af6618/C_TANK/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j40 -f &quot;/home/af6618/C_TANK/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TANK/fast">
+				<Option output="/home/af6618/C_TANK/TANK" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/af6618/C_TANK"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/af6618/C_TANK/buffers"/>
+					<Add directory="/home/af6618/C_TANK/client"/>
+					<Add directory="/home/af6618/C_TANK/connections"/>
+					<Add directory="/home/af6618/C_TANK/rdma"/>
+					<Add directory="/home/af6618/C_TANK/server"/>
+					<Add directory="/home/af6618/C_TANK/test"/>
+					<Add directory="/home/af6618/C_TANK/utils"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j40 -f &quot;/home/af6618/C_TANK/Makefile&quot;  VERBOSE=1 TANK/fast"/>
+					<CompileFile command="/usr/bin/make -j40 -f &quot;/home/af6618/C_TANK/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j40 -f &quot;/home/af6618/C_TANK/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j40 -f &quot;/home/af6618/C_TANK/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="P2PTest">
+				<Option output="/home/af6618/C_TANK/P2PTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/af6618/C_TANK"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/af6618/C_TANK/buffers"/>
+					<Add directory="/home/af6618/C_TANK/client"/>
+					<Add directory="/home/af6618/C_TANK/connections"/>
+					<Add directory="/home/af6618/C_TANK/rdma"/>
+					<Add directory="/home/af6618/C_TANK/server"/>
+					<Add directory="/home/af6618/C_TANK/test"/>
+					<Add directory="/home/af6618/C_TANK/utils"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j40 -f &quot;/home/af6618/C_TANK/Makefile&quot;  VERBOSE=1 P2PTest"/>
+					<CompileFile command="/usr/bin/make -j40 -f &quot;/home/af6618/C_TANK/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j40 -f &quot;/home/af6618/C_TANK/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j40 -f &quot;/home/af6618/C_TANK/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="P2PTest/fast">
+				<Option output="/home/af6618/C_TANK/P2PTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/af6618/C_TANK"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/af6618/C_TANK/buffers"/>
+					<Add directory="/home/af6618/C_TANK/client"/>
+					<Add directory="/home/af6618/C_TANK/connections"/>
+					<Add directory="/home/af6618/C_TANK/rdma"/>
+					<Add directory="/home/af6618/C_TANK/server"/>
+					<Add directory="/home/af6618/C_TANK/test"/>
+					<Add directory="/home/af6618/C_TANK/utils"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j40 -f &quot;/home/af6618/C_TANK/Makefile&quot;  VERBOSE=1 P2PTest/fast"/>
+					<CompileFile command="/usr/bin/make -j40 -f &quot;/home/af6618/C_TANK/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j40 -f &quot;/home/af6618/C_TANK/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j40 -f &quot;/home/af6618/C_TANK/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/af6618/C_TANK"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j40 -f &quot;/home/af6618/C_TANK/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j40 -f &quot;/home/af6618/C_TANK/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j40 -f &quot;/home/af6618/C_TANK/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j40 -f &quot;/home/af6618/C_TANK/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/af6618/C_TANK"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j40 -f &quot;/home/af6618/C_TANK/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j40 -f &quot;/home/af6618/C_TANK/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j40 -f &quot;/home/af6618/C_TANK/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j40 -f &quot;/home/af6618/C_TANK/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/af6618/C_TANK/buffers/VirtualRDMARingBuffer.c">
+			<Option target="TANK"/>
+			<Option target="P2PTest"/>
+		</Unit>
+		<Unit filename="/home/af6618/C_TANK/buffers/VirtualRDMARingBuffer.h">
+			<Option target="TANK"/>
+			<Option target="P2PTest"/>
+		</Unit>
+		<Unit filename="/home/af6618/C_TANK/buffers/VirtualSHMDoubleRingBuffer.c">
+			<Option target="TANK"/>
+			<Option target="P2PTest"/>
+		</Unit>
+		<Unit filename="/home/af6618/C_TANK/buffers/VirtualSHMDoubleRingBuffer.h">
+			<Option target="TANK"/>
+			<Option target="P2PTest"/>
+		</Unit>
+		<Unit filename="/home/af6618/C_TANK/buffers/VirtualSHMRingBuffer.c">
+			<Option target="TANK"/>
+			<Option target="P2PTest"/>
+		</Unit>
+		<Unit filename="/home/af6618/C_TANK/buffers/VirtualSHMRingBuffer.h">
+			<Option target="TANK"/>
+			<Option target="P2PTest"/>
+		</Unit>
+		<Unit filename="/home/af6618/C_TANK/client/RdmaClient.c">
+			<Option target="TANK"/>
+			<Option target="P2PTest"/>
+		</Unit>
+		<Unit filename="/home/af6618/C_TANK/client/RdmaClient.h">
+			<Option target="TANK"/>
+			<Option target="P2PTest"/>
+		</Unit>
+		<Unit filename="/home/af6618/C_TANK/client/SharedMemoryClient.c">
+			<Option target="TANK"/>
+			<Option target="P2PTest"/>
+		</Unit>
+		<Unit filename="/home/af6618/C_TANK/client/SharedMemoryClient.h">
+			<Option target="TANK"/>
+			<Option target="P2PTest"/>
+		</Unit>
+		<Unit filename="/home/af6618/C_TANK/client/TcpClient.c">
+			<Option target="TANK"/>
+			<Option target="P2PTest"/>
+		</Unit>
+		<Unit filename="/home/af6618/C_TANK/client/TcpClient.h">
+			<Option target="TANK"/>
+			<Option target="P2PTest"/>
+		</Unit>
+		<Unit filename="/home/af6618/C_TANK/connections/P2PConnection.c">
+			<Option target="TANK"/>
+			<Option target="P2PTest"/>
+		</Unit>
+		<Unit filename="/home/af6618/C_TANK/connections/P2PConnection.h">
+			<Option target="TANK"/>
+			<Option target="P2PTest"/>
+		</Unit>
+		<Unit filename="/home/af6618/C_TANK/main.c">
+			<Option target="TANK"/>
+		</Unit>
+		<Unit filename="/home/af6618/C_TANK/rdma/CompletionQueuePair.c">
+			<Option target="TANK"/>
+			<Option target="P2PTest"/>
+		</Unit>
+		<Unit filename="/home/af6618/C_TANK/rdma/CompletionQueuePair.h">
+			<Option target="TANK"/>
+			<Option target="P2PTest"/>
+		</Unit>
+		<Unit filename="/home/af6618/C_TANK/rdma/Network.c">
+			<Option target="TANK"/>
+			<Option target="P2PTest"/>
+		</Unit>
+		<Unit filename="/home/af6618/C_TANK/rdma/Network.h">
+			<Option target="TANK"/>
+			<Option target="P2PTest"/>
+		</Unit>
+		<Unit filename="/home/af6618/C_TANK/rdma/QueuePair.c">
+			<Option target="TANK"/>
+			<Option target="P2PTest"/>
+		</Unit>
+		<Unit filename="/home/af6618/C_TANK/rdma/QueuePair.h">
+			<Option target="TANK"/>
+			<Option target="P2PTest"/>
+		</Unit>
+		<Unit filename="/home/af6618/C_TANK/rdma/RDMANetworking.c">
+			<Option target="TANK"/>
+			<Option target="P2PTest"/>
+		</Unit>
+		<Unit filename="/home/af6618/C_TANK/rdma/RDMANetworking.h">
+			<Option target="TANK"/>
+			<Option target="P2PTest"/>
+		</Unit>
+		<Unit filename="/home/af6618/C_TANK/rdma/RcQueuePair.c">
+			<Option target="TANK"/>
+			<Option target="P2PTest"/>
+		</Unit>
+		<Unit filename="/home/af6618/C_TANK/rdma/RcQueuePair.h">
+			<Option target="TANK"/>
+			<Option target="P2PTest"/>
+		</Unit>
+		<Unit filename="/home/af6618/C_TANK/rdma/UcQueuePair.c">
+			<Option target="TANK"/>
+			<Option target="P2PTest"/>
+		</Unit>
+		<Unit filename="/home/af6618/C_TANK/rdma/UcQueuePair.h">
+			<Option target="TANK"/>
+			<Option target="P2PTest"/>
+		</Unit>
+		<Unit filename="/home/af6618/C_TANK/rdma/UdQueuePair.c">
+			<Option target="TANK"/>
+			<Option target="P2PTest"/>
+		</Unit>
+		<Unit filename="/home/af6618/C_TANK/rdma/UdQueuePair.h">
+			<Option target="TANK"/>
+			<Option target="P2PTest"/>
+		</Unit>
+		<Unit filename="/home/af6618/C_TANK/server/RdmaServer.c">
+			<Option target="TANK"/>
+			<Option target="P2PTest"/>
+		</Unit>
+		<Unit filename="/home/af6618/C_TANK/server/RdmaServer.h">
+			<Option target="TANK"/>
+			<Option target="P2PTest"/>
+		</Unit>
+		<Unit filename="/home/af6618/C_TANK/server/SharedMemoryServer.c">
+			<Option target="TANK"/>
+			<Option target="P2PTest"/>
+		</Unit>
+		<Unit filename="/home/af6618/C_TANK/server/SharedMemoryServer.h">
+			<Option target="TANK"/>
+			<Option target="P2PTest"/>
+		</Unit>
+		<Unit filename="/home/af6618/C_TANK/server/TcpServer.c">
+			<Option target="TANK"/>
+			<Option target="P2PTest"/>
+		</Unit>
+		<Unit filename="/home/af6618/C_TANK/server/TcpServer.h">
+			<Option target="TANK"/>
+			<Option target="P2PTest"/>
+		</Unit>
+		<Unit filename="/home/af6618/C_TANK/test/P2PTest.c">
+			<Option target="P2PTest"/>
+		</Unit>
+		<Unit filename="/home/af6618/C_TANK/test/bench.c">
+			<Option target="TANK"/>
+			<Option target="P2PTest"/>
+		</Unit>
+		<Unit filename="/home/af6618/C_TANK/test/bench.h">
+			<Option target="TANK"/>
+			<Option target="P2PTest"/>
+		</Unit>
+		<Unit filename="/home/af6618/C_TANK/utils/utils.c">
+			<Option target="TANK"/>
+			<Option target="P2PTest"/>
+		</Unit>
+		<Unit filename="/home/af6618/C_TANK/utils/utils.h">
+			<Option target="TANK"/>
+			<Option target="P2PTest"/>
+		</Unit>
+		<Unit filename="/home/af6618/C_TANK/utils/vec.c">
+			<Option target="TANK"/>
+			<Option target="P2PTest"/>
+		</Unit>
+		<Unit filename="/home/af6618/C_TANK/utils/vec.h">
+			<Option target="TANK"/>
+			<Option target="P2PTest"/>
+		</Unit>
+		<Unit filename="/home/af6618/C_TANK/utils/virtualMemory.c">
+			<Option target="TANK"/>
+			<Option target="P2PTest"/>
+		</Unit>
+		<Unit filename="/home/af6618/C_TANK/utils/virtualMemory.h">
+			<Option target="TANK"/>
+			<Option target="P2PTest"/>
+		</Unit>
+		<Unit filename="/home/af6618/C_TANK/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
