@@ -42,14 +42,13 @@ int main(int argc, char** argv) {
             ConnectionClient* client = createClient("127.0.0.1","127.0.0.1","1234","8239", RDMA);
 
             for (int k=0; k<MESSAGES; k++) {
-                printf("MESSAGGIO %d RDMA\n", k);
 	    		ClientWrite(client, testdata, size[j]);
 	    		ClientRead(client,buf,size[j]);
 
     			for (int i = 0; i < size[j]; i++) {
     				//	printf("BUF = %d, i =%d\n", buu[i], i);
     					if (testdata[i] != buf[i]) {
-    						printf("DIVERSI!! Testdata = %d, Buf2 = %d, i = %d\n", testdata[i], buf[i], i);
+    						printf("Error!! Testdata = %d, Buf2 = %d, i = %d\n", testdata[i], buf[i], i);
     					}
 
     			}
@@ -66,7 +65,7 @@ int main(int argc, char** argv) {
             //RdmaTransportServer* server = createRDMATransportServer("1234");
             //acceptRDMA(server);
 
-            ConnectionServer* server = createServer("10.0.0.10","11.0.0.11","8239","1234", RDMA);
+            ConnectionServer* server = createServer("127.0.0.1","127.0.0.1","8239","1234", RDMA);
 
             //benchServer(size[j], readRDMAServer, server, buf2, size[j], MESSAGES);
             //benchServer(size[j], writeRDMAServer, server, buf2, size[j], MESSAGES);
@@ -78,7 +77,7 @@ int main(int argc, char** argv) {
 
                 for (int i = 0; i < size[j]; i++) {
                     if (testdata[i] != buf2[i]) {
-                        printf("DIVERSI!! Testdata = %d, Buf2 = %d, i = %d\n", testdata[i], buf2[i], i);
+                        printf("Error!! Testdata = %d, Buf2 = %d, i = %d\n", testdata[i], buf2[i], i);
                     }
                 }
 
